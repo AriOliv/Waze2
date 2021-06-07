@@ -1,0 +1,1 @@
+g++ -O graph_class.cpp -o graph_class.cgi
