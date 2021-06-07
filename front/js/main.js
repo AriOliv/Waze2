@@ -165,7 +165,7 @@ function add_path(e) {
         y1 = coordenadas[0]['lat']
         x2 = coordenadas[1]['lng']
         y2 = coordenadas[1]['lat']
-        const caminho = new A_Path(y1, x1, y2, x2);
+        const caminho = new Dijkstra_Path(y1, x1, y2, x2);
         coordenadas = []
     }
 }
